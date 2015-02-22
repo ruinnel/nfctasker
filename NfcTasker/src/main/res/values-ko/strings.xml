@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="notification">"알림"</string>
+	<string name="confirm">"확인"</string>
+	<string name="cancel">"취소"</string>
+	<string name="add">"추가"</string>
+	<string name="install">"설치"</string>
+	<string name="setting">"설정"</string>
+	<string name="none">"None"</string>
+
+	<string name="write_to_tag">"Writ to Tag"</string>
+	<string name="register">"Register"</string>
+
+	<string name="msg_please_turn_on_nfc">"NFC를 켜주세요."</string>
+	<string name="msg_please_touch_tag">"태그를 터치해 주세요."</string>
+	<string name="msg_please_wait">"잠시만 기다려 주세요..."</string>
+
+	<!-- main -->
+	<string name="tab_task">"Task"</string>
+	<string name="tab_help">"Help"</string>
+	<string name="menu_delete">"Delete"</string>
+	<string name="menu_add">"Add"</string>
+	<string name="got_it">"다시 보지않음"</string>
+
+	<!-- add task dialog -->
+	<string name="tit_add_task">"Add Task"</string>
+	<string name="tit_add_task_format" formatted="false">"Add Task(%s)"</string>
+	<string name="label_function">"Func."</string>
+	<string name="label_param">"Param"</string>
+	<string name="label_name">"Name"</string>
+
+	<string name="format_msg_launch_task" formatted="false">"%s\n 실행중."</string>
+	<string name="msg_task_not_exist">"등록된 Task가 없습니다."</string>
+	<string name="msg_please_check_tasker_installed">"Tasker가 설치되어 있어야 사용가능합니다."</string>
+	<string name="msg_please_check_tasker_setting">"Tasker가 활성화된 상태가 아니거나 설정(Misc - Allow External Access)이 Disable 상태입니다."</string>
+	<string name="msg_launch_complate">"Task 실행 완료."</string>
+
+	<string name="format_task_desc" formatted="false">"Tag UID : %s (Function : %s)"</string>
+	<string name="format_task_desc_params" formatted="false">"Tag UID : %s / %s(%s)"</string>
+	<string name="msg_task_registerd">"Task가 등록되었습니다."</string>
+	<string name="msg_task_delete_confirm">"삭제 하시겠습니까?"</string>
+
+	<string name="msg_task_list_empty">"등록된 Task가 없습니다."</string>
+
+	<string name="format_please_touch_tag" formatted="false">"태그를 터치해 주세요.\n(용량 : %d bytes)"</string>
+	<string name="msg_task_name_empty">"Task를 선택해 주세요."</string>
+	<string name="msg_write_complate">"Tag 기록 완료."</string>
+	<string name="msg_write_fail">"Tag 기록 실패\n(ReadOnly 또는 Tag 용량을 확인해 주세요.)"</string>
+
+	<!-- Help -->
+	<string name="help_tasker_setting_tit">"Tasker 설정"</string>
+	<string name="help_tasker_setting">"- Tasker가 활성화 되어 있어야 합니다.\n- Preferences > MISC > Allow External Access가 활성화 되어있어야 합니다."</string>
+	<string name="help_trans_commu_tit">"TransCommu Service"</string>
+	<string name="help_trans_commu_contribute">"Contribute"</string>
+
+	<!-- validation message -->
+	<string name="msg_invalid_not_enough_params">"파라미터가 충분하지 않습니다."</string>
+	<string name="msg_invalid_selction" formatted="false">"[%s](을/를) 올바르게 선택해 주세요."</string>
+	<string name="msg_invalid_number" formatted="false">"[%s](은/는) 숫자로 입력해 주세요."</string>
+	<string name="msg_invalid_number_range" formatted="false">"[%s](은/는) %d~%d 범위의 숫자로 입력해 주세요."</string>
+	<string name="msg_invalid_need_value" formatted="false">"[%s](을/를) 입력해 주세요."</string>
+	<string name="msg_ap_out_of_range" formatted="false">"무선 공유기(%s)를 찾을 수 없습니다."</string>
+	<string name="msg_email_send_fail">"Email 클라이언트가 설치되어 있지 않습니다."</string>
+	<string name="msg_invalid_macaddress" formatted="false">"[%s](은/는) 맥어드래스 양식으로 입력해 주세요."</string>
+
+</resources>

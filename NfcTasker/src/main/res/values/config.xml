@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="version_name">"0.9.1"</string>
+	<string name="mime_type_tasker">"application/vnd.tasker-launcher"</string>
+	<string name="mime_type_nfc_tasker">"application/vnd.nfc-tasker"</string>
+	<string name="pkg_tasker">"net.dinglisch.android.taskerm"</string>
+	<string name="trans_commu_app_code">"ydmSLliKlq"</string>
+</resources>

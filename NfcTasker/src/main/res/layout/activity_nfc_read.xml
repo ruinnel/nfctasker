@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center"
+	android:padding="30dp">
+	<LinearLayout
+		android:id="@+id/layout_nfc_read"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:background="@drawable/bg_popup_default"
+		android:gravity="center">
+		<TextView
+			android:id="@+id/txt_nfc_read_msg"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textColor="@android:color/black"
+			android:gravity="center"
+			android:padding="10dp"
+			style="@style/text_normal"/>
+		<ProgressBar
+			android:id="@+id/txt_nfc_read_progress"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="10dp"/>
+	</LinearLayout>
+</LinearLayout>

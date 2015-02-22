@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/layout_help_container"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/white">
+
+	<!-- help for Tasker Setting -->
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/help_tasker_setting_tit"
+		android:gravity="center"
+		style="@style/text_help_title" />
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/help_tasker_setting"
+		style="@style/text_help_desc" />
+
+	<!-- trans commu link -->
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/help_trans_commu_tit"
+		android:gravity="center"
+		android:layout_marginTop="10dp"
+		style="@style/text_help_title" />
+	<Button
+		android:id="@+id/btn_help_trans_commu"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/help_trans_commu_contribute"
+		android:layout_gravity="center_horizontal"
+		style="@style/text_help_desc" />
+</LinearLayout>

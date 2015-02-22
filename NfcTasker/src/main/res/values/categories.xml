@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- tasker -->
+	<string name="cat_tasker">"Tasker"</string>
+
+	<string name="cat_network">"Network"</string>
+	<string name="cat_sub_wifi_toggle">"Wifi On/Off"</string>
+	<string name="cat_sub_wifi_connect">"Wifi Connect"</string>
+
+	<string name="cat_bluetooth">"Bluetooth"</string>
+	<string name="cat_sub_bluetooth_toggle">"On/Off"</string>
+	<string name="cat_sub_bluetooth_discoverable">"Discoverable"</string>
+
+	<string name="cat_disp_n_sound">"Disp&amp;Sound"</string>
+	<string name="cat_sub_disp_rotate_toggle">"Rotate On/Off"</string>
+	<string name="cat_sub_disp_brightness">"Brightness"</string>
+	<string name="cat_sub_disp_volume">"Volume"</string>
+
+	<string name="cat_communicate">"Commun."</string>
+	<string name="cat_sub_communicate_call">"Call"</string>
+	<string name="cat_sub_communicate_sms">"SMS"</string>
+	<string name="cat_sub_communicate_email">"Email"</string>
+
+	<string name="cat_apps">"Apps."</string>
+	<string name="cat_sub_apps_launch">"Launch"</string>
+	<string name="cat_sub_apps_playmusic">"Play Music"</string>
+
+	<!-- parameter labels -->
+	<string name="label_param_action">"Action"</string>
+	<string name="label_param_tasker_task">"Task"</string>
+	<string name="label_param_type">"Type"</string>
+	<string name="label_param_value">"Value"</string>
+	<string name="label_param_ssid">"SSID"</string>
+	<string name="label_param_password">"Password"</string>
+	<string name="label_param_phone_num">"Phone"</string>
+	<string name="label_param_email">"Email"</string>
+	<string name="label_param_subject">"Subject"</string>
+	<string name="label_param_text">"Text"</string>
+
+	<!-- parameter hint -->
+	<string name="hint_param_brightness">"brightness (1-100)"</string>
+	<string name="hint_param_volume">"volume (1-100)"</string>
+	<string name="hint_param_bluetooth_discoverable">"duration (second)"</string>
+	<string name="hint_param_phone_num">"Phone Number"</string>
+	<string name="hint_param_sms">"Message"</string>
+	<string name="hint_param_email">"address@mail.com"</string>
+</resources>

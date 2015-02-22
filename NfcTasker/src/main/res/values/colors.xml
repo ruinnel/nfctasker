@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="black">#ff000000</color>
+	<color name="white">#ffffffff</color>
+	<color name="met_blue_50">#E3F2FD</color>
+	<color name="met_blue_100">#BBDEFB</color>
+	<color name="met_blue_200">#90CAF9</color>
+	<color name="met_blue_300">#64B5F6</color>
+	<color name="met_blue_400">#42A5F5</color>
+	<color name="met_blue_500">#2196F3</color>
+	<color name="met_blue_600">#1E88E5</color>
+	<color name="met_blue_700">#1976D2</color>
+	<color name="met_blue_800">#1565C0</color>
+	<color name="met_blue_900">#0D47A1</color>
+
+	<color name="line">#1e000000</color>
+	<color name="disabled">#42000000</color>
+	<color name="text_secondary">#8a000000</color>
+	<color name="text">#de000000</color>
+
+	<color name="bg_first">@color/met_blue_700</color>
+	<color name="bg_second">@color/met_blue_500</color>
+	<color name="bg_third">@color/met_blue_100</color>
+
+</resources>

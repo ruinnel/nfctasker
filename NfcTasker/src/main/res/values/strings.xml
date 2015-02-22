@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">"NFC Tasker"</string>
+
+	<string name="notification">"Notification"</string>
+	<string name="confirm">"Confirm"</string>
+	<string name="cancel">"Cancel"</string>
+	<string name="add">"Add"</string>
+	<string name="install">"Install"</string>
+	<string name="setting">"Setting"</string>
+	<string name="none">"None"</string>
+
+	<string name="write_to_tag">"Writ to Tag"</string>
+	<string name="register">"Register"</string>
+
+	<string name="msg_please_turn_on_nfc">"Please turn on NFC."</string>
+	<string name="msg_please_touch_tag">"Please tab NFC Tag with the back of your device."</string>
+	<string name="msg_please_wait">"Please wait..."</string>
+
+	<!-- main -->
+	<string name="tab_task">"Task"</string>
+	<string name="tab_help">"Help"</string>
+	<string name="menu_delete">"Delete"</string>
+	<string name="menu_add">"Add"</string>
+	<string name="got_it">"Got it."</string>
+
+	<!-- add task dialog -->
+	<string name="tit_add_task">"Add Task"</string>
+	<string name="tit_add_task_format" formatted="false">"Add Task(%s)"</string>
+	<string name="label_function">"Func."</string>
+	<string name="label_param">"Param"</string>
+	<string name="label_name">"Name"</string>
+
+	<string name="format_msg_launch_task" formatted="false">"%s\n now launching."</string>
+	<string name="msg_task_not_exist">"Task does not exists."</string>
+	<string name="msg_please_check_tasker_installed">"Please install Tasker first."</string>
+	<string name="msg_please_check_tasker_setting">"Tasker is not active, or (Misc - Allow External Access) is Disable state."</string>
+	<string name="msg_launch_complate">"Task launch complate."</string>
+
+	<string name="format_task_desc" formatted="false">"Tag UID : %s (Function : %s)"</string>
+	<string name="format_task_desc_params" formatted="false">"Tag UID : %s / %s(%s)"</string>
+	<string name="msg_task_registerd">"Task registered."</string>
+	<string name="msg_task_delete_confirm">"delete this item?"</string>
+
+	<string name="msg_task_list_empty">"Task does not exists."</string>
+
+	<string name="format_please_touch_tag" formatted="false">"Please tab NFC Tag with the back of your device.\n(용량 : %d bytes)"</string>
+	<string name="msg_task_name_empty">"Please select task."</string>
+	<string name="msg_write_complate">"Tag write complate."</string>
+	<string name="msg_write_fail">"Tag write fail.\n(ReadOnly or memory size too small.)"</string>
+
+	<!-- Help -->
+	<string name="help_tasker_setting_tit">"Tasker Setting"</string>
+	<string name="help_tasker_setting">"- Tasker must be activated.\n- 'Preferences > MISC > Allow External Access' must be checked."</string>
+	<string name="help_trans_commu_tit">"TransCommu Service"</string>
+	<string name="help_trans_commu_contribute">"Contribute"</string>
+
+	<!-- validation message -->
+	<string name="msg_invalid_not_enough_params">"Not enouch parameter."</string>
+	<string name="msg_invalid_selction" formatted="false">"Please select [%s] correctly."</string>
+	<string name="msg_invalid_number" formatted="false">"[%s] must be a valid number."</string>
+	<string name="msg_invalid_number_range" formatted="false">"[%s] was out of the range %d to %d"</string>
+	<string name="msg_invalid_need_value" formatted="false">"please insert [%s]."</string>
+	<string name="msg_ap_out_of_range" formatted="false">"Access Point(%s) out of range."</string>
+	<string name="msg_invalid_phone_num" formatted="false">"[%s] must be a valid phone number."</string>
+	<string name="msg_invalid_email" formatted="false">"[%s] must be a valid email address."</string>
+	<string name="msg_email_send_fail">"There are no email clients installed."</string>
+	<string name="msg_invalid_macaddress" formatted="false">"[%s] must be a valid mac address."</string>
+</resources>

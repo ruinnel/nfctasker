@@ -60,6 +60,8 @@
 	<string name="msg_invalid_number_range" formatted="false">"[%s](은/는) %d~%d 범위의 숫자로 입력해 주세요."</string>
 	<string name="msg_invalid_need_value" formatted="false">"[%s](을/를) 입력해 주세요."</string>
 	<string name="msg_ap_out_of_range" formatted="false">"무선 공유기(%s)를 찾을 수 없습니다."</string>
+	<string name="msg_invalid_phone_num" formatted="false">"[%s]은/는 전화번호 형식으로 입력해 주세요."</string>
+	<string name="msg_invalid_email" formatted="false">"[%s]은/는 이메일 형식으로 입력해 주세요."</string>
 	<string name="msg_email_send_fail">"Email 클라이언트가 설치되어 있지 않습니다."</string>
 	<string name="msg_invalid_macaddress" formatted="false">"[%s](은/는) 맥어드래스 양식으로 입력해 주세요."</string>
 

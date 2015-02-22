@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="app_name">"NFC Tasker"</string>
-
 	<string name="notification">"Notification"</string>
 	<string name="confirm">"Confirm"</string>
 	<string name="cancel">"Cancel"</string>

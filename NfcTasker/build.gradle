@@ -14,14 +14,14 @@ repositories {
 
 android {
 	compileSdkVersion 21
-	buildToolsVersion "21.1.2"
+	buildToolsVersion "22.0.1"
 
 	defaultConfig {
 		applicationId "net.ruinnel.nfc.tasker"
 		minSdkVersion 14
 		targetSdkVersion 21
-		versionCode 1
-		versionName "1.0"
+		versionCode 8
+		versionName "0.9.1"
 	}
 	buildTypes {
 		release {

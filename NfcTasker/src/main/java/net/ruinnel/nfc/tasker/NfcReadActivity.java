@@ -170,13 +170,19 @@ public class NfcReadActivity extends BaseActivity {
 
 						mTxtMsg.setText(String.format(getString(R.string.format_msg_launch_task), taskName));
 
-						if (!launchTaskerTask(taskName)) {
+						if (!checkTaskerSetting()) {
 							showToast(R.string.msg_please_check_tasker_setting);
 							finish();
 							return;
 						} else {
+							// launch tasker task
+							TaskerIntent intent = new TaskerIntent(taskName);
+							Log.i(TAG, "launchTaskerTask - " + taskName);
+							sendBroadcast(intent);
+
 							showToast(R.string.msg_launch_complate);
 							finish();
+							return;
 						}
 					}
 				} else if (getString(R.string.mime_type_nfc_tasker).equals(mimeType)) {
@@ -194,6 +200,7 @@ public class NfcReadActivity extends BaseActivity {
 						mTxtMsg.setText(String.format(getString(R.string.format_msg_launch_task), splits[0]));
 						launchTask(task);
 						finish();
+						return;
 					}
 				}
 			}
@@ -226,6 +233,7 @@ public class NfcReadActivity extends BaseActivity {
 	}
 
 	private void launchTasks(List<Task> tasks) {
+//		Log.i(TAG, "launchTasks - " + tasks);
 		for (Task task : tasks) {
 			launchTask(task);
 		}
@@ -235,25 +243,36 @@ public class NfcReadActivity extends BaseActivity {
 
 	private void launchTask(Task task) {
 		if (Tasker.class.getName().equals(task.function)) {
-			if (!launchTaskerTask(task.name)) {
+			if (!checkTaskerSetting()) {
 				showToast(R.string.msg_please_check_tasker_setting);
 				finish();
 				return;
 			}
+
+			task.run(this);
 		} else {
 			task.run(this);
 		}
 	}
 
-	private boolean launchTaskerTask(String taskName) {
+	private boolean checkTaskerSetting() {
 		if (TaskerIntent.testStatus(this).equals(TaskerIntent.Status.OK) ) {
-			TaskerIntent intent = new TaskerIntent(taskName);
-			sendBroadcast(intent);
 			return true;
 		} else {
 			return false;
 		}
 	}
+
+//	private boolean launchTaskerTask(String taskName) {
+//		if (TaskerIntent.testStatus(this).equals(TaskerIntent.Status.OK) ) {
+//			TaskerIntent intent = new TaskerIntent(taskName);
+//			Log.i(TAG, "launchTaskerTask - " + taskName);
+//			sendBroadcast(intent);
+//			return true;
+//		} else {
+//			return false;
+//		}
+//	}
 
 	@Override
 	public boolean onTouchEvent(MotionEvent event) {

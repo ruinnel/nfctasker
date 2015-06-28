@@ -84,7 +84,7 @@ public class ValidUtil {
 
 	public static boolean isAlphaNumeric(String input) {
 		if (input != null && input.length() > 0) {
-			if(find(input, "[^0-9a-zA-Z_]+")) {
+			if(find(input, "[^0-9a-zA-Z_ ]+")) {
 				return false;
 			} else {
 				return true;

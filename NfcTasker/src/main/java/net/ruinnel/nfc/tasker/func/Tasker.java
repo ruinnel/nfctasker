@@ -4,6 +4,7 @@ import android.content.Context;
 import net.dinglisch.android.tasker.TaskerIntent;
 import net.dinglisch.android.tasker.TaskerValues;
 import net.ruinnel.nfc.tasker.R;
+import net.ruinnel.nfc.tasker.util.Log;
 import net.ruinnel.nfc.tasker.util.ValidUtil;
 
 import java.util.ArrayList;
@@ -40,10 +41,12 @@ public class Tasker extends Function {
 
 	@Override
 	public void run() {
+		Log.i(TAG, "run - " + params);
 		if (params != null && params.length > 0) {
 			for (String taskName : params) {
 				if (TaskerIntent.testStatus(context).equals(TaskerIntent.Status.OK)) {
 					TaskerIntent intent = new TaskerIntent(taskName);
+					Log.i(TAG, "tasker run - " + taskName);
 					context.sendBroadcast(intent);
 				}
 			}
